@@ -1,0 +1,124 @@
+{
+  "app": {
+    "title": "AI 简历教练",
+    "tagline": "上传您的简历，获取即时、专业的反馈，并下载优化版本。"
+  },
+  "steps": {
+    "upload": {
+      "title": "1. 上传",
+      "description": "提交 PDF 或 DOCX 格式的简历。"
+    },
+    "review": {
+      "title": "2. 审查",
+      "description": "获取 AI 提供的反馈和评分。"
+    },
+    "improve": {
+      "title": "3. 优化",
+      "description": "下载一份重写并优化的简历。"
+    }
+  },
+  "modes": {
+    "cv": "简历教练",
+    "image": "图像分析"
+  },
+  "upload": {
+    "cv": {
+      "description": "首先请上传您的 PDF 或 DOCX 格式简历。我们的 AI 将在几秒钟内提供详细审查。",
+      "loading": "正在分析简历...",
+      "button": "获取反馈"
+    },
+    "image": {
+      "description": "上传一张图片并提出问题。Gemini 将分析视觉内容并提供答案。",
+      "placeholder": "例如：这张图片里发生了什么？或者你能描述一下主要对象吗？",
+      "loading": "正在分析图像...",
+      "button": "分析图像",
+      "resultTitle": "分析结果："
+    },
+    "dropzone": "将文件拖放到此处，或点击选择"
+  },
+  "review": {
+    "backButton": "上传另一份简历",
+    "title": "您的简历审查",
+    "summaryPrefix": "您的简历处于",
+    "summarySuffix": "状态。以下是 AI 的反馈摘要。",
+    "score": {
+      "strong": "优秀",
+      "good": "良好",
+      "needsWork": "有待提高",
+      "outOf100": "满分 100"
+    },
+    "strengthsTitle": "优点",
+    "strengthsDescription": "这些是您简历中最出色的部分，请保留它们！",
+    "weaknessesTitle": "改进建议",
+    "weaknessesDescription": "专注于这些可行的建议来提高您的分数。",
+    "sectionAnalysisTitle": "逐节分析",
+    "sectionAnalysisDescription": "这是您简历中每个部分的详细分析。点击某个部分以查看具体反馈。",
+    "sections": {
+      "summary": "个人总结",
+      "experience": "工作经历",
+      "education": "教育背景",
+      "skills": "技能",
+      "projects": "项目经历",
+      "other": "其他"
+    },
+    "generate": {
+      "title": "创建优化版简历",
+      "description": "让我们的 AI 重写您的简历以获得最大影响力。您还可以提供目标职位以获得更好的结果。",
+      "placeholder": "可选：例如，“软件工程师实习生”",
+      "loading": "正在生成 PDF...",
+      "button": "生成并下载"
+    }
+  },
+  "footer": {
+    "poweredBy": "由 Google Gemini 提供技术支持。仅供演示使用。",
+    "privacy": "隐私政策",
+    "terms": "服务条款"
+  },
+  "errors": {
+    "cvTooShort": "简历内容过短或无法正确读取。请尝试其他文件。",
+    "unknownCvError": "处理简历时发生未知错误。",
+    "promptRequired": "请输入提示以分析图像。",
+    "imageAnalysisFailed": "分析图像失败。",
+    "imageReadFailed": "读取图像文件失败。",
+    "unknownImageError": "图像分析期间发生未知错误。",
+    "pdfGenerationFailed": "生成 PDF 失败。请重试。"
+  },
+  "onboarding": {
+    "next": "下一步",
+    "finish": "完成",
+    "skip": "跳过",
+    "upload": {
+      "step1": {
+        "title": "第一步：上传您的简历",
+        "description": "欢迎使用 AI 简历教练！首先，请将您的简历文件（PDF 或 DOCX）拖到这里，或点击选择文件。"
+      },
+      "step2": {
+        "title": "第二步：获取反馈",
+        "description": "选择文件后，点击此按钮。我们的 AI 将分析您的简历并为您提供详细的反馈。"
+      }
+    },
+    "review": {
+      "step1": {
+        "title": "您的分数和摘要",
+        "description": "这是您的综合得分和 AI 提供的摘要。它可以让您快速了解简历的优势所在。"
+      },
+      "step2": {
+        "title": "可行的反馈",
+        "description": "查看“改进建议”卡片，获取具体、可操作的技巧，让您的简历更具吸引力。"
+      },
+      "step3": {
+        "title": "下载优化版本",
+        "description": "最后，您可以让 AI 重写您的简历。点击此处生成并下载优化后的 PDF 版本。"
+      }
+    }
+  },
+  "help": {
+    "tooltip": "帮助与指导",
+    "menuTitle": "需要帮助？",
+    "restartUploadTour": "显示上传指南",
+    "restartReviewTour": "显示审查指南",
+    "scoreInfo": "我的分数代表什么？",
+    "scoreInfoModalTitle": "了解您的分数",
+    "scoreInfoModalContent": "AI 根据您简历的清晰度、影响力及格式进行评分。\n\n<p class='mt-2'><strong class='text-green-400'>85-100 (优秀):</strong> 非常棒！您的简历结构清晰，富有影响力。</p><p class='mt-2'><strong class='text-yellow-400'>60-84 (良好):</strong> 一份不错的简历，但仍有改进空间。请重点关注建议部分。</p><p class='mt-2'><strong class='text-red-400'>0-59 (有待提高):</strong> 您的简历需要进行重大修改。请仔细遵循反馈意见。</p>"
+  }
+}

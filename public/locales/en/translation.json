@@ -1,0 +1,124 @@
+{
+  "app": {
+    "title": "AI CV Coach",
+    "tagline": "Upload your CV for instant, expert feedback and get an improved version."
+  },
+  "steps": {
+    "upload": {
+      "title": "1. Upload",
+      "description": "Submit your CV in PDF or DOCX format."
+    },
+    "review": {
+      "title": "2. Review",
+      "description": "Get AI-powered feedback and a score."
+    },
+    "improve": {
+      "title": "3. Improve",
+      "description": "Download a rewritten, optimized CV."
+    }
+  },
+  "modes": {
+    "cv": "CV Coach",
+    "image": "Image Analyzer"
+  },
+  "upload": {
+    "cv": {
+      "description": "Get started by uploading your CV in PDF or DOCX format. Our AI will provide a detailed review in seconds.",
+      "loading": "Analyzing CV...",
+      "button": "Get Feedback"
+    },
+    "image": {
+      "description": "Upload an image and ask a question. Gemini will analyze the visual content and provide an answer.",
+      "placeholder": "e.g., What's happening in this image? or Can you describe the main subject?",
+      "loading": "Analyzing Image...",
+      "button": "Analyze Image",
+      "resultTitle": "Analysis Result:"
+    },
+    "dropzone": "Drag & drop a file here, or click to select"
+  },
+  "review": {
+    "backButton": "Upload Another CV",
+    "title": "Your CV Review",
+    "summaryPrefix": "Your CV is in",
+    "summarySuffix": "shape. Here's a summary of the AI's feedback.",
+    "score": {
+      "strong": "Strong",
+      "good": "Good",
+      "needsWork": "Needs Work",
+      "outOf100": "out of 100"
+    },
+    "strengthsTitle": "Strengths",
+    "strengthsDescription": "These are the strongest parts of your CV. Keep them!",
+    "weaknessesTitle": "Areas for Improvement",
+    "weaknessesDescription": "Focus on these actionable suggestions to improve your score.",
+    "sectionAnalysisTitle": "Section-by-Section Analysis",
+    "sectionAnalysisDescription": "Here’s a detailed breakdown of each section of your CV. Click on a section to see specific feedback.",
+    "sections": {
+      "summary": "Summary",
+      "experience": "Experience",
+      "education": "Education",
+      "skills": "Skills",
+      "projects": "Projects",
+      "other": "Other"
+    },
+    "generate": {
+      "title": "Create an Improved CV",
+      "description": "Let our AI rewrite your CV for maximum impact. Optionally, provide a target role for even better results.",
+      "placeholder": "Optional: e.g., 'Software Engineer Intern'",
+      "loading": "Generating PDF...",
+      "button": "Generate & Download"
+    }
+  },
+  "footer": {
+    "poweredBy": "Powered by Google Gemini. For demonstration purposes only.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "errors": {
+    "cvTooShort": "CV content is too short or could not be read properly. Please try another file.",
+    "unknownCvError": "An unknown error occurred during CV processing.",
+    "promptRequired": "Please provide a prompt to analyze the image.",
+    "imageAnalysisFailed": "Failed to analyze the image.",
+    "imageReadFailed": "Failed to read image file.",
+    "unknownImageError": "An unknown error occurred during image analysis.",
+    "pdfGenerationFailed": "Failed to generate PDF. Please try again."
+  },
+  "onboarding": {
+    "next": "Next",
+    "finish": "Finish",
+    "skip": "Skip",
+    "upload": {
+      "step1": {
+        "title": "Step 1: Upload Your CV",
+        "description": "Welcome to the AI CV Coach! Start by dragging your CV file here, or click to select a PDF or DOCX."
+      },
+      "step2": {
+        "title": "Step 2: Get Feedback",
+        "description": "Once your file is selected, click this button. Our AI will analyze your CV and give you detailed feedback."
+      }
+    },
+    "review": {
+      "step1": {
+        "title": "Your Score & Summary",
+        "description": "Here's your overall score and a summary from the AI. It gives you a quick idea of your CV's strength."
+      },
+      "step2": {
+        "title": "Actionable Feedback",
+        "description": "Check the 'Areas for Improvement' card for specific, actionable tips to make your CV stronger."
+      },
+      "step3": {
+        "title": "Download an Improved Version",
+        "description": "Finally, you can have the AI rewrite your CV. Click here to generate and download an optimized PDF."
+      }
+    }
+  },
+  "help": {
+    "tooltip": "Help & Guidance",
+    "menuTitle": "Need Help?",
+    "restartUploadTour": "Show Upload Guide",
+    "restartReviewTour": "Show Review Guide",
+    "scoreInfo": "What does my score mean?",
+    "scoreInfoModalTitle": "Understanding Your Score",
+    "scoreInfoModalContent": "The AI scores your CV based on clarity, impact, and formatting. \n\n<p class='mt-2'><strong class='text-green-400'>85-100 (Strong):</strong> Excellent! Your CV is well-structured and impactful.</p><p class='mt-2'><strong class='text-yellow-400'>60-84 (Good):</strong> A solid CV with some room for improvement. Focus on the suggestions.</p><p class='mt-2'><strong class='text-red-400'>0-59 (Needs Work):</strong> Your CV needs significant revisions. Follow the feedback carefully.</p>"
+  }
+}

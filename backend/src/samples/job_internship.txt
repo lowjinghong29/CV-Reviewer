@@ -1,0 +1,20 @@
+Software Engineer Intern
+
+Company: Innovate Corp
+Location: Remote
+
+We are looking for a talented and enthusiastic Software Engineer Intern to join our dynamic team. In this role, you will work on our core products, contributing to both frontend and backend development.
+
+Responsibilities:
+- Design, develop, and test features for our web applications.
+- Collaborate with senior engineers and product managers.
+- Write clean, maintainable, and well-documented code.
+- Participate in code reviews and agile ceremonies.
+
+Qualifications:
+- Currently pursuing a degree in Computer Science or a related field.
+- Strong understanding of data structures and algorithms.
+- Experience with JavaScript/TypeScript and a modern web framework (e.g., React, Angular, Vue).
+- Familiarity with backend development (Node.js preferred).
+- Knowledge of SQL or NoSQL databases.
+- Excellent problem-solving skills.

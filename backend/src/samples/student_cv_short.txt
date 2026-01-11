@@ -1,0 +1,11 @@
+Jane Doe
+jane.doe@email.com | 555-123-4567
+
+Education
+University of Example, B.S. in Computer Science (2020-2024)
+GPA: 3.8/4.0
+
+Skills
+Languages: Python, JavaScript, Java
+Frameworks: React, Node.js
+Databases: SQL, MongoDB

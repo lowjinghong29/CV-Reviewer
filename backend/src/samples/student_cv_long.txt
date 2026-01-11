@@ -1,0 +1,35 @@
+John Smith
+john.smith.dev@email.com | (555) 987-6543 | linkedin.com/in/johnsmithdev
+
+Summary
+Highly motivated Computer Science student with a passion for web development and building scalable applications. Experienced in full-stack development with a focus on the MERN stack. Seeking a challenging software engineering internship to apply and expand my skills.
+
+Education
+State University, Cityville, USA
+Bachelor of Science in Computer Science, Minor in Mathematics
+Expected Graduation: May 2025
+GPA: 3.9/4.0
+Relevant Coursework: Data Structures & Algorithms, Web Development, Database Systems, Operating Systems, Software Engineering
+
+Projects
+E-commerce Platform | MERN Stack
+- Developed a full-featured e-commerce website with product listings, shopping cart, and user authentication.
+- Implemented a RESTful API with Node.js and Express.
+- Designed a responsive frontend with React and Redux for state management.
+
+Task Management App | React, Firebase
+- Created a collaborative task management application allowing users to create and share to-do lists.
+- Utilized Firebase for real-time database and user authentication.
+
+Experience
+Software Engineering Intern | Tech Solutions Inc. | Summer 2024
+- Contributed to the development of a client-facing web application using Angular and TypeScript.
+- Wrote unit tests with Jasmine and Karma, improving code coverage by 15%.
+- Participated in daily stand-ups and agile development processes.
+
+Skills
+Programming Languages: JavaScript, TypeScript, Python, Java, C++
+Frontend: React, Redux, Angular, HTML5, CSS3, Tailwind CSS
+Backend: Node.js, Express.js, REST APIs
+Databases: MongoDB, PostgreSQL, SQL
+Tools: Git, Docker, Webpack, Jira, Firebase

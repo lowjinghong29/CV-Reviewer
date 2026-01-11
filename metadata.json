@@ -1,0 +1,5 @@
+{
+  "name": "CV Reviewer",
+  "description": "An intelligent web application that uses Gemini to review CVs (PDF/DOCX), provide feedback, and generate improved versions. It also features an image analyzer for insightful visual analysis.",
+  "requestFramePermissions": []
+}
